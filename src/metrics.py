@@ -1,0 +1,18 @@
+def test_retrieval_accuracy():
+    assert calculate_cosine_similarity([1,0], [1,0]) == 1.0
+def test_retrieval_accuracy():
+    assert calculate_cosine_similarity([1,0], [1,0]) == 1.0
+def test_retrieval_accuracy():
+    assert calculate_cosine_similarity([1,0], [1,0]) == 1.0
+  "semantic_threshold": 0.82,
+  "embedding_model": "text-embedding-3-small",
+def extract_context_chunks(doc_path):
+    with open(doc_path, r) as f: return f.read().split(
+
+)
+def extract_context_chunks(doc_path):
+    with open(doc_path, r) as f: return f.read().split(
+
+)
+def test_retrieval_accuracy():
+    assert calculate_cosine_similarity([1,0], [1,0]) == 1.0
