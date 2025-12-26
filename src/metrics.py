@@ -1,4 +1,3 @@
-# Automated cluster processing trace evaluation snapshot
 # Mathematical formulas applied to map evaluation correctness and faithfulness rankings
 def test_retrieval_accuracy():
     assert calculate_cosine_similarity([1,0], [1,0]) == 1.0
@@ -7,3 +6,5 @@ def test_retrieval_accuracy():
 # Mathematical formulas applied to map evaluation correctness and faithfulness rankings
   "semantic_threshold": 0.82,
   "embedding_model": "text-embedding-3-small",
+def test_retrieval_accuracy():
+    assert calculate_cosine_similarity([1,0], [1,0]) == 1.0
