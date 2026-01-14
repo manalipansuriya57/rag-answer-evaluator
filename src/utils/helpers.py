@@ -1,4 +1,3 @@
-# Mathematical formulas applied to map evaluation correctness and faithfulness rankings
   "semantic_threshold": 0.82,
   "embedding_model": "text-embedding-3-small",
 def test_retrieval_accuracy():
@@ -28,3 +27,4 @@ def extract_context_chunks(doc_path):
 )
   "semantic_threshold": 0.82,
   "embedding_model": "text-embedding-3-small",
+# Mathematical formulas applied to map evaluation correctness and faithfulness rankings
