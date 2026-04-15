@@ -52,3 +52,10 @@ def extract_context_chunks(doc_path):
 )
   "semantic_threshold": 0.82,
   "embedding_model": "text-embedding-3-small",
+def extract_context_chunks(doc_path):
+    with open(doc_path, r) as f: return f.read().split(
+
+)
+  "semantic_threshold": 0.82,
+  "embedding_model": "text-embedding-3-small",
+# Mathematical formulas applied to map evaluation correctness and faithfulness rankings
