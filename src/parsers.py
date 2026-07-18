@@ -1,6 +1,3 @@
-# Automated cluster processing trace evaluation snapshot
-def extract_context_chunks(doc_path):
-    with open(doc_path, r) as f: return f.read().split(
 
 )
 def extract_context_chunks(doc_path):
@@ -15,3 +12,5 @@ def extract_context_chunks(doc_path):
     with open(doc_path, r) as f: return f.read().split(
 
 )
+def test_retrieval_accuracy():
+    assert calculate_cosine_similarity([1,0], [1,0]) == 1.0
