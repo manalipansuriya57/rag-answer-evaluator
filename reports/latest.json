@@ -1,0 +1,90 @@
+{
+  "evaluator": "manalipansuriya57",
+  "n": 6,
+  "avg_groundedness": 0.421,
+  "avg_relevance": 0.275,
+  "avg_hallucination_risk": 0.462,
+  "error_category_counts": {
+    "hallucination": 4,
+    "ungrounded": 3,
+    "irrelevant": 2
+  },
+  "per_question": [
+    {
+      "id": "q1",
+      "groundedness": 0.75,
+      "relevance": 0.25,
+      "hallucination_risk": 0.25,
+      "error_categories": [
+        "hallucination"
+      ],
+      "notes": [
+        "Unsupported atoms: You"
+      ]
+    },
+    {
+      "id": "q2",
+      "groundedness": 0.25,
+      "relevance": 0.25,
+      "hallucination_risk": 0.6,
+      "error_categories": [
+        "ungrounded",
+        "hallucination"
+      ],
+      "notes": [
+        "Low claim-context overlap (0.25)",
+        "Unsupported atoms: 30"
+      ]
+    },
+    {
+      "id": "q3",
+      "groundedness": 0.4,
+      "relevance": 0.8,
+      "hallucination_risk": 0.45,
+      "error_categories": [
+        "hallucination"
+      ],
+      "notes": [
+        "Unsupported atoms: The"
+      ]
+    },
+    {
+      "id": "q4",
+      "groundedness": 0.0,
+      "relevance": 0.0,
+      "hallucination_risk": 1.0,
+      "error_categories": [
+        "ungrounded",
+        "irrelevant",
+        "hallucination"
+      ],
+      "notes": [
+        "Low claim-context overlap (0.00)",
+        "Low answer-question overlap (0.00)",
+        "Unsupported atoms: Use, MongoDB, Atlas, Search"
+      ]
+    },
+    {
+      "id": "q5",
+      "groundedness": 1.0,
+      "relevance": 0.222,
+      "hallucination_risk": 0.0,
+      "error_categories": [],
+      "notes": []
+    },
+    {
+      "id": "q6",
+      "groundedness": 0.125,
+      "relevance": 0.125,
+      "hallucination_risk": 0.475,
+      "error_categories": [
+        "ungrounded",
+        "irrelevant"
+      ],
+      "notes": [
+        "Low claim-context overlap (0.12)",
+        "Low answer-question overlap (0.12)"
+      ]
+    }
+  ]
+}
